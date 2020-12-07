@@ -430,11 +430,13 @@ section {
 }
 
 .section-title {
-  text-align: center;
+  /*text-align: center;*/
   padding-bottom: 30px;
 }
 
+
 .section-title h2 {
+  text-align: center;
   font-size: 32px;
   font-weight: bold;
   position: relative;
@@ -456,8 +458,11 @@ section {
 }
 
 .section-title p {
+  text-align: left;
   margin-bottom: 0;
 }
+
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -654,6 +659,7 @@ section {
 }
 
 .services .description {
+
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
@@ -831,7 +837,7 @@ section {
   text-align: center;
   background: rgba(209, 103, 176, 0.75);
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -952,7 +958,7 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
+  width: 200px;
   border-radius: 50%;
   margin: 0 auto;
 }
