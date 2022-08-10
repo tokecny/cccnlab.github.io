@@ -956,6 +956,8 @@ section {
   box-sizing: content-box;
   text-align: center;
   min-height: 320px;
+  height: 600px;
+  overflow: scroll;
   line-height: 1.8em;
 }
 
