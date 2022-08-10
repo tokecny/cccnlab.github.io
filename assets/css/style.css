@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 15px 0;
-  background: rgba(209, 103, 176, 0.8);
+  background: rgba(209, 103, 176, 0.9);
 }
 
 #header.header-transparent {
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(209, 103, 176, 0.8);
+  background: rgba(209, 103, 176, 0.9);
   padding: 0;
 }
 
@@ -370,6 +370,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   color: #fff;
   text-shadow: -1px 0 2px #5a2f3d;
+  background-color: rgba(35, 36, 38, 0.6);
 }
 
 #hero h2 {
