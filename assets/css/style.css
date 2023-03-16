@@ -14,11 +14,11 @@ body {
 }
 
 a {
-  color: #E7E6DD;#d167af;
+  color: #d167af;
 }
 
 a:hover {
-  color: #E7E6DD;#dd8ed0;
+  color: #dd8ed0;
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #E7E6DD;#d167be;
+  background: #d167be;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background:#E7E6DD;#da86cd;
+  background:#da86cd;
   transition: background 0.2s ease-in-out;
 }
 
@@ -68,8 +68,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 15px 0;
-/*  background: rgba(209, 103, 176, 0.9);*/
-background: rgba(176, 176, 176, 0.9);
+  background: rgba(209, 103, 176, 0.9);
 }
 
 #header.header-transparent {
@@ -77,7 +76,7 @@ background: rgba(176, 176, 176, 0.9);
 }
 
 #header.header-scrolled {
-  background: rgba(102, 102, 102, 0.9);
+  background: rgba(209, 103, 176, 0.9);
   padding: 0;
 }
 
@@ -128,7 +127,7 @@ background: rgba(176, 176, 176, 0.9);
 .nav-menu a {
   display: block;
   position: relative;
-  color: #E7E6DD;#ff97c1;
+  color: #ff97c1;
   padding: 20px 12px;
   transition: 0.3s;
   font-size: 13px;
@@ -344,7 +343,7 @@ background: rgba(176, 176, 176, 0.9);
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg3.png") top center;
+  background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
   margin-bottom: -90px;
@@ -371,7 +370,7 @@ background: rgba(176, 176, 176, 0.9);
   text-transform: uppercase;
   color: #fff;
   text-shadow: -1px 0 2px #5a2f3d;
-/*  background-color: rgba(35, 36, 38, 0.6);*/
+  background-color: rgba(35, 36, 38, 0.6);
 }
 
 #hero h2 {
@@ -734,8 +733,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-/*  background: linear-gradient(rgba(209, 103, 176, 0.8), rgba(209, 103, 176, 0.8)), url("../img/cta-bg.jpg") fixed center center;*/
-background: linear-gradient(rgba(102, 102, 102, 0.8), rgba(102, 102, 102, 0.8)), url("../img/cta-bg2.png") fixed center center;
+  background: linear-gradient(rgba(209, 103, 176, 0.8), rgba(209, 103, 176, 0.8)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
